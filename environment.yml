@@ -1,0 +1,13 @@
+name: text-classification
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - conda-forge::jupyterlab
+  - pandas
+  - tensorflow
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - conda-forge::yfinance

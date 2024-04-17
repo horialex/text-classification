@@ -1,0 +1,52 @@
+## Text classification ##
+
+What is word polarity and?
+
+
+**Insights and Questions**
+
+1. We have a vocabulary file under 'other-data' named 'imdb.vocab' that 
+   is not directly used but if we make our vocabulary it is very similar to that one.
+
+2. Extra files we have besides the reviews 
+   How does vocabulary file help us? 
+   How does LabeledBow.feat (word-frequency) file help us 
+   How does the polarization file - 'imdber.txt' help us? can we see the polarization in our model if it mathces with that file 
+   or can we somehow use that file, is it just for refference or can it be used?
+
+3. Vobulary size:
+   In our example the vocabulary size (max_features) is set to 10 000, this means that 10 000 words are used,
+    the vocabulary file has around 90k words. Is this 10k enough can we tinker with that number and will it help us?
+
+4. Sequence length:
+   This determines the vector size and the number of tokens (words in our case) that are allowed in a vector. This means that after 
+   we apply standardization techinques on the review text only the first 250 words will be stored. If the review is less than 250 words, the 
+   rest of tokens will refrence 0 - empty word.
+
+5. The vector will not hold words but stores the indexes of the words. It is like a reffrence table.
+
+6. We want to implement data pipelines so it will be easier to play with the data parameters
+
+7. We need to see if we can find some transfromers or some way to better deal with the data, maybe there is a way to give more importance to
+   certain words that are leaning more towards positive or negative semantics.
+
+8. We must find out the number of words per each review and see the avearge length or see how this is distributed.
+
+9. imdb.vcab holds every unique word found in the reviews
+
+10. .feat files stores the number of occurance of words per review and the score of each review. 
+    A score between 1 and 4 is negative, 5-7 neutral and 7-10 positive
+
+11. The reviews are named in the following format: {index}_{score}.txt
+
+12. The unsupervised folder stores the reviews in the format: {index}_0.txt - 0 meaning unlabelled.
+
+13. If we have a strong enough model can we use it to label the unlabelled dataset?
+
+
+
+
+
+
+
+

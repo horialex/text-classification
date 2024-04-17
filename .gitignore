@@ -1,0 +1,9 @@
+.DS_Store
+**/.DS_Store
+logs
+models
+data/test/pos
+data/test/neg
+data/train/pos
+data/train/neg
+other-data/unsup
