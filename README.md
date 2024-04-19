@@ -2,6 +2,8 @@
 
 We aim to make a Neural network, to make text classification, we can perfrom sentiment analysis or classify some text
 
+Dataset url :https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
+
 To install the project you need to install miniconda locally then you need to do the following actions:
 
 minicoda source: https://docs.anaconda.com/free/miniconda/miniconda-install

@@ -35,7 +35,7 @@ What is word polarity and?
 9. imdb.vcab holds every unique word found in the reviews
 
 10. .feat files stores the number of occurance of words per review and the score of each review. 
-    A score between 1 and 4 is negative, 5-7 neutral and 7-10 positive
+    A score between 1 and 4 is negative, 5-6 neutral and 7-10 positive
 
 11. The reviews are named in the following format: {index}_{score}.txt
 
